@@ -1,0 +1,115 @@
+body{
+    overflow-y: scroll;
+}
+#topContent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#logo{
+    margin: auto;
+}
+#scoreboard,
+#timer{
+    width: 125px;
+}
+#scoreboard #score,
+#timer #waiting_time{
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+#score{
+    flex-direction: column;
+}
+#waiting_time{
+    margin-block: auto;
+    line-height: 2em;
+}
+
+.logo{
+    width: 200px;
+}
+#entireContent{
+    font-family: Verdana;
+}
+.hidden{
+    display: none;
+}
+#score{
+    margin: auto;
+}
+#startButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#quizContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#question-container{
+    display: flex;
+    justify-content: center;
+}
+#question-container button{
+    margin: 10px;
+}
+#img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 425px;
+}
+.noSelect{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.buttonsClass,
+#start,
+#submitButton{
+    font-family: Verdana;
+    background-color:rgb(0, 0, 0);
+    outline: 1px solid black;
+    color: white;
+    padding: 15px 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+}
+
+#red,
+#timer{
+    color: red;
+}
+
+#scoreSubtraction{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+#enterNameForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#initials{
+    margin-top: 10px;
+    width: 50px;
+}
+
