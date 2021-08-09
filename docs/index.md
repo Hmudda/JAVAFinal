@@ -1,9 +1,7 @@
 <html>
 <head>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 
 
-<script type="text/javascript" src="timer.js"></script>
 <link rel="stylesheet" href="styles.css">
 
 
@@ -22,13 +20,6 @@
     </iframe>
     
 <button type="button" id ="start" onclick="redirectGIT()" value="run external javascript">View Source</button>
-
-</div>
-
-
-</div>
-
-<div class="wrapper">
 
 </div>
 
